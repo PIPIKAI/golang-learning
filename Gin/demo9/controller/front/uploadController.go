@@ -8,12 +8,22 @@ import (
 	"path"
 	"strconv"
 
+	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 )
 
 type UploadController struct{}
 
 func (con UploadController) Init(ctx *gin.Context) {
+	// 使用session
+	session := sessions.Default(ctx)
+	// 设置session 的过期时间
+	session.Options(sessions.Options{
+		MaxAge: 3600,
+	})
+	// 设置session
+	session.Set("name", "session的值")
+	session.Save()
 	ctx.HTML(200, "default/upload.html", gin.H{
 		"title": "上传图片",
 	})
@@ -28,6 +38,8 @@ func (con UploadController) SignelUpload(ctx *gin.Context) {
 	username := ctx.PostForm("username")
 	// 单文件上传
 	file, err := ctx.FormFile("face")
+	session := sessions.Default(ctx)
+
 	if err != nil {
 		ctx.JSON(http.StatusBadRequest, gin.H{
 			"message": err.Error(),
@@ -39,6 +51,7 @@ func (con UploadController) SignelUpload(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
 			"username": username,
 			"filename": fmt.Sprintf("%v uploaded! ", file.Filename),
+			"session":  session.Get("name"),
 		})
 	}
 

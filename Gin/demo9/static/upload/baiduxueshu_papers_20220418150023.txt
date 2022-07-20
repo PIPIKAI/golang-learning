@@ -1,0 +1,20 @@
+[1] Ahuja K ,  Shanmugam K ,  Varshney K , et al. Invariant Risk Minimization Games[J].  2020.
+[2] Marcus G . Deep Learning: A Critical Appraisal[J].  2018.
+[3] Lake B M ,  Ullman T D ,  Tenenbaum J B , et al. Building Machines That Learn and Think Like People[J]. Behavioral and Brain Sciences, 2016, arXiv:1.
+[4] Lopez-Paz D . From Dependence to Causation[J].  2016.
+[5] Arjovsky M ,  Bottou L ,  Gulrajani I , et al. Invariant Risk Minimization[J].  2019.
+[6] Arpit D ,  Xiong C ,  Socher R . Predicting with High Correlation Features[J].  2019.
+[7] Jacobsen J H ,  Behrmann J ,  Zemel R , et al. Excessive Invariance Causes Adversarial Vulnerability[J].  2018.
+[8] Engstrom L ,  Tran B , D Tsipras, et al. Exploring the Landscape of Spatial Robustness[J].  2017.
+[9] Sinha A ,  Namkoong H ,  Volpi R , et al. Certifying Some Distributional Robustness with Principled Adversarial Training[J].  2017.
+[10] Duchi J ,  Glynn P ,  Namkoong H . Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach[J].  2016.
+[11] Ben-Tal A ,  Ghaoui L E ,  Nemirovski A . Robust optimization[J]. princeton university press princeton nj.
+[12] Bagnell J A . Robust Supervised Learning[C]// Proceedings, The Twentieth National Conference on Artificial Intelligence and the Seventeenth Innovative Applications of Artificial Intelligence Conference, July 9-13, 2005, Pittsburgh, Pennsylvania, USA. 2005.
+[13] Ilyas A ,  Santurkar S ,  Tsipras D , et al. Adversarial Examples Are Not Bugs, They Are Features[J].  2019.
+[14] Geirhos R ,  Rubisch P ,  Michaelis C , et al. ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness[J].  2018.
+[15] Jo J ,  Bengio Y . Measuring the tendency of CNNs to Learn Surface Statistical Regularities[J].  2017.
+[16]刘欢, 郑庆华, 罗敏楠,等. 基于跨域对抗学习的零样本分类[J]. 计算机研究与发展, 2019, 56(12):15.
+[17] Jabri A ,  Joulin A ,  Laurens V . Revisiting Visual Question Answering Baselines[C]// European Conference on Computer Vision. Springer, Cham, 2016.
+[18] Torralba A ,  Efros A A . Unbiased look at dataset bias[C]// Computer Vision & Pattern Recognition. IEEE, 2011.
+[19] Sturm B L . A Simple Method to Determine if a Music Information Retrieval System is a "Horse"[J]. IEEE Transactions on Multimedia, 2014, 16(6):1636-1644.
+[20] Vapnik V . Principles of Risk Minimization for Learning Theory[C]// Advances in Neural Information Processing Systems. Morgan Kaufmann, 1992.
